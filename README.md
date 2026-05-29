@@ -1,6 +1,8 @@
 # OpenSafety
 
-**Open-source AI for pharmacovigilance, pharmacoepidemiology, and regulatory science** · University of Copenhagen, Drug Safety Group
+**Open-source AI for pharmacovigilance, pharmacoepidemiology, and regulatory science** · 
+University of Copenhagen, 
+Drug Safety Group
 
 > *The tools that protect patients should be held to the same standards as the science that informs clinical decisions. That means transparency. That means openness. That means peer review — not just for papers, but for the software we rely on every day.*
 
