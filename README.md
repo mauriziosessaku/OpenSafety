@@ -58,7 +58,7 @@ Every project using the shared sandbox is expected to result in a peer-reviewed 
 When you apply, you should be able to describe:
 - The research question your project addresses
 - The target journal or conference you intend to submit to
-- A realistic timeline for manuscript preparation
+- A realistic timeline for the project
 
 Co-authorship or acknowledgement will be determined jointly during the scoping call, in line with ICMJE authorship criteria.
 
@@ -108,13 +108,13 @@ Monthly check-ins or async updates. Outputs published openly with co-authorship 
 
 The OpenSafety sandbox runs on the following hardware, hosted at the University of Copenhagen:
 
-**Dell PowerEdge R7725 — Configuration #20 (with RAM upgrade)**
+**Dell PowerEdge R7725**
 
 | Component | Specification |
 |---|---|
 | **CPU** | 2× AMD EPYC 9655 (96C/192T per socket, 192 cores total) |
 | **GPU** | 1× NVIDIA H200 NVL (141 GB VRAM, single GPU) |
-| **RAM** | 1,536 GB DDR5-6400 (upgraded from base 384 GB) |
+| **RAM** | 1,536 GB DDR5-6400 |
 
 ---
 
