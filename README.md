@@ -60,8 +60,6 @@ When you apply, you should be able to describe:
 - The target journal or conference you intend to submit to
 - A realistic timeline for the project and manuscript preparation
 
-Co-authorship or acknowledgement will be determined jointly during the scoping call, in line with ICMJE authorship criteria.
-
 **Commercial use, proprietary development, and internal-only benchmarking are outside the scope of this initiative.**
 
 You can contribute:
@@ -115,16 +113,7 @@ The OpenSafety sandbox runs on the following hardware, hosted at the University 
 | **CPU** | 2× AMD EPYC 9655 (96C/192T per socket, 192 cores total) |
 | **GPU** | 1× NVIDIA H200 NVL (141 GB VRAM, single GPU) |
 | **RAM** | 1,536 GB DDR5-6400 (upgraded from base 384 GB) |
-| **Estimated cost** | ~794,000–800,000 DKK |
-| **Rubus compliant** | Yes |
 
-### Rationale
-
-The base configuration is priced at 617,333 DKK, leaving approximately 182,667 DKK within the 800,000 DKK budget. Rather than leaving this headroom unused, the full margin is invested in maximising system RAM — bringing it from 384 GB up to 1,536 GB.
-
-As a reference: Configuration #13 (same server, same CPU, 1,536 GB RAM, no GPU) is priced at 593,225 DKK — so the upgrade from 384 GB to 1,536 GB represents approximately 593,225 − 416,254 = ~177,000 DKK for the additional DIMMs, which fits comfortably within the remaining budget margin of 182,667 DKK.
-
-The H200 NVL provides 141 GB of unified GPU memory on a single chip, making it the best option within budget for running very large language models (70B+ parameters in full precision) without the complexity and overhead of multi-GPU setups. With 1,536 GB of system RAM, the RAM:VRAM ratio reaches approximately 11:1 — well above NVIDIA's recommended 2:1 minimum — ensuring no memory pressure during parallel CPU-side processing while the GPU handles inference or fine-tuning tasks simultaneously.
 
 ---
 
