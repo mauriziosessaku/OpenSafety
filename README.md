@@ -48,6 +48,21 @@ The infrastructure is open. The code is open. The results will be published.
 
 You do not need to be a programmer to participate. The pharmacovigilance community — academics, regulators, industry scientists, and patient advocates — can and should shape how this field evolves.
 
+### Academic scope and publication commitment
+
+**Access to the OpenSafety infrastructure is granted exclusively for academic and scientific research purposes.**
+
+Every project using the shared sandbox is expected to result in a peer-reviewed publication. This is not a bureaucratic requirement — it is the founding principle of this initiative. We are building this to advance the science of drug safety in the open, and publication is the mechanism by which that happens. Results that remain unpublished do not serve the community this infrastructure exists to support.
+
+When you apply, you should be able to describe:
+- The research question your project addresses
+- The target journal or conference you intend to submit to
+- A realistic timeline for manuscript preparation
+
+Co-authorship or acknowledgement will be determined jointly during the scoping call, in line with ICMJE authorship criteria.
+
+**Commercial use, proprietary development, and internal-only benchmarking are outside the scope of this initiative.**
+
 You can contribute:
 - Ideas and use cases
 - Datasets
@@ -66,6 +81,7 @@ Write to **maurizio.sessa@sund.ku.dk** and include the following:
 2. **What you are working on** — a brief project description (2–5 sentences)
 3. **What you need the infrastructure for** — e.g. signal detection, LLM benchmarking, narrative processing, disproportionality analysis
 4. **What you can contribute** — data, code, domain expertise, or engagement
+5. **Your publication plan** — the research question, target journal or conference, and expected timeline for manuscript submission
 
 ### Step 2 — Acknowledgement · *Day 1–5*
 You will receive a confirmation within 5 working days. Every message is reviewed personally.
@@ -114,7 +130,8 @@ The H200 NVL provides 141 GB of unified GPU memory on a single chip, making it t
 ## Contact
 
 **Maurizio Sessa, Associate Professor**  
-Drug Safety Group · Department of Drug Design and Pharmacology  
+Drug Safety Group · 
+Department of Drug Design and Pharmacology  
 University of Copenhagen
 
 📩 [maurizio.sessa@sund.ku.dk](mailto:maurizio.sessa@sund.ku.dk)
@@ -128,3 +145,7 @@ This repository and all associated tools are released under the [MIT License](LI
 ---
 
 *We are building this in the open, from day one.*
+
+---
+
+🔗 [github.com/mauriziosessaku/OpenSafety](https://github.com/mauriziosessaku/OpenSafety/blob/main/README.md)
