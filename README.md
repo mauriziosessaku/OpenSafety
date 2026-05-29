@@ -58,7 +58,7 @@ Every project using the shared sandbox is expected to result in a peer-reviewed 
 When you apply, you should be able to describe:
 - The research question your project addresses
 - The target journal or conference you intend to submit to
-- A realistic timeline for manuscript preparation
+- A realistic timeline for the project and manuscript preparation
 
 Co-authorship or acknowledgement will be determined jointly during the scoping call, in line with ICMJE authorship criteria.
 
