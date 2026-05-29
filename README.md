@@ -35,13 +35,11 @@ The infrastructure is open. The code is open. The results will be published.
 
 ### Focus Areas
 
-| # | Area | Description |
+| # | Macro-category | Examples |
 |---|---|---|
-| 01 | **Signal Detection** | Open disproportionality analysis pipelines with transparent statistical methods |
-| 02 | **Case Narrative Processing** | AI-based ICSR parsing and causality assessment with auditable logic |
-| 03 | **Literature Monitoring** | Automated screening and extraction across PubMed and regulatory sources |
-| 04 | **Aggregate Safety Analysis** | PSUR and PBRER-ready pipelines that can be validated and challenged |
-| 05 | **Pharmacoepidemiology** | AI-assisted methods for real-world evidence generation, including disease phenotyping from EHR and register data, exposure definition, confounder identification, and causal inference pipelines |
+| 01 | **Pharmacovigilance** | Signal detection and disproportionality analysis; individual case safety report processing; causality assessment; case narrative generation; literature monitoring; aggregate safety reporting (PSUR, PBRER) |
+| 02 | **Pharmacoepidemiology** | Disease phenotyping from EHR and register data; exposure and outcome definition; confounder identification; causal inference and target trial emulation; real-world evidence generation |
+| 03 | **Regulatory Science** | Regulatory document intelligence (SmPC, EPAR, labelling); benefit-risk assessment support; inspection readiness; compliance monitoring across EMA, FDA, MHRA, and WHO frameworks |
 
 ---
 
@@ -58,7 +56,7 @@ Every project using the shared sandbox is expected to result in a peer-reviewed 
 When you apply, you should be able to describe:
 - The research question your project addresses
 - The target journal or conference you intend to submit to
-- A realistic timeline for the project
+- A realistic timeline for manuscript preparation
 
 Co-authorship or acknowledgement will be determined jointly during the scoping call, in line with ICMJE authorship criteria.
 
@@ -108,21 +106,30 @@ Monthly check-ins or async updates. Outputs published openly with co-authorship 
 
 The OpenSafety sandbox runs on the following hardware, hosted at the University of Copenhagen:
 
-**Dell PowerEdge R7725**
+**Dell PowerEdge R7725 — Configuration #20 (with RAM upgrade)**
 
 | Component | Specification |
 |---|---|
 | **CPU** | 2× AMD EPYC 9655 (96C/192T per socket, 192 cores total) |
 | **GPU** | 1× NVIDIA H200 NVL (141 GB VRAM, single GPU) |
-| **RAM** | 1,536 GB DDR5-6400 |
+| **RAM** | 1,536 GB DDR5-6400 (upgraded from base 384 GB) |
+| **Estimated cost** | ~794,000–800,000 DKK |
+| **Rubus compliant** | Yes |
+
+### Rationale
+
+The base configuration is priced at 617,333 DKK, leaving approximately 182,667 DKK within the 800,000 DKK budget. Rather than leaving this headroom unused, the full margin is invested in maximising system RAM — bringing it from 384 GB up to 1,536 GB.
+
+As a reference: Configuration #13 (same server, same CPU, 1,536 GB RAM, no GPU) is priced at 593,225 DKK — so the upgrade from 384 GB to 1,536 GB represents approximately 593,225 − 416,254 = ~177,000 DKK for the additional DIMMs, which fits comfortably within the remaining budget margin of 182,667 DKK.
+
+The H200 NVL provides 141 GB of unified GPU memory on a single chip, making it the best option within budget for running very large language models (70B+ parameters in full precision) without the complexity and overhead of multi-GPU setups. With 1,536 GB of system RAM, the RAM:VRAM ratio reaches approximately 11:1 — well above NVIDIA's recommended 2:1 minimum — ensuring no memory pressure during parallel CPU-side processing while the GPU handles inference or fine-tuning tasks simultaneously.
 
 ---
 
 ## Contact
 
 **Maurizio Sessa, Associate Professor**  
-Drug Safety Group · 
-Department of Drug Design and Pharmacology  
+Drug Safety Group · Department of Drug Design and Pharmacology  
 University of Copenhagen
 
 📩 [maurizio.sessa@sund.ku.dk](mailto:maurizio.sessa@sund.ku.dk)
